@@ -1,0 +1,244 @@
+/** 
+ * Template Name: Apex
+ * Template Description: Multipurpose Responsive HTML5 Landing Page
+ * By: Exill
+ */
+
+
+
+/*===============================================
+=            01. Extra small devices            =
+===============================================*/
+
+@media only screen and (max-width:767px) {
+    /*==========================================
+    =            01. General Styles            =
+    ==========================================*/
+    .db-xs {
+        display: block;
+    }
+    /*=================================================
+    =            01. General Blog Styles              =
+    =================================================*/
+    /*============================================
+    =            01.01. Blog Header              =
+    ============================================*/
+    .blog-header {
+        padding: 70px 0 20px 0;
+    }
+    .blog-header .header-title {
+        font-size: 18px;
+    }
+    .blog-header .header-tree {
+        font-size: 13px;
+    }
+    /*=======================================
+    =            01. Blog Page              =
+    =======================================*/
+    .blog-wrapper .post-thumbnail {
+        padding-right: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .blog-wrapper .post-thumbnail .avatar-list-img {
+        width: 100%;
+    }
+    .blog-wrapper .post-thumbnail .avatar-list-img img {
+        width: inherit;
+    }
+    .blog-wrapper .pmd-card-list .list-group-item {
+        margin-bottom: 10px;
+    }
+    .blog-wrapper .post-text .list-group-item-heading {
+        font-size: 20px;
+    }
+    .blog-wrapper .post-text .list-group-item-text {
+        font-size: 13px;
+    }
+    .blog-wrapper .post-text .post-meta {
+        display: none;
+    }
+    /*============================================
+    =            01. Blog Post Page              =
+    ============================================*/
+    .post-wrapper .post-title h2 {
+        font-size: 26px;
+    }
+    .post-wrapper .post-image {
+        margin-bottom: 15px;
+    }
+    /* Comments Area */
+    .post-wrapper .comments-area .list-group-item-text {
+        font-size: 14px;
+    }
+    /*================================================
+    =            01. Stay In Touch Area              =
+    ================================================*/
+    .stay-in-touch-area {
+        padding: 45px 0 0 0;
+    }
+    .stay-in-touch-area .vertical-align {
+        display: block;
+    }
+    .stay-in-touch-area .subscribe-form {
+        text-align: center;
+    }
+    .stay-in-touch-area .subscribe-form .form-group {
+        float: none;
+    }
+    .stay-in-touch-area .latest-tweets .owl-item li,
+    .stay-in-touch-area .latest-tweets .owl-item .twitter-tweet {
+        width: auto!important;
+    }
+    /*=========================================
+    =            01. Footer Area              =
+    =========================================*/
+    .footer-area {
+        text-align: center;
+    }
+    .footer-area .main-footer {
+        margin-bottom: 25px;
+    }
+    .footer-area .copyright p {
+        margin-bottom: 15px;
+    }
+    .footer-area .social-medias a i {
+        float: none;
+    }
+}
+
+
+/*=========================================
+=            02. Small devices            =
+=========================================*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /*==========================================
+    =            02. General Styles            =
+    ==========================================*/
+    .db-sm {
+        display: block;
+    }
+    /*=========================================
+    =            02. Footer Area              =
+    =========================================*/
+    .footer-area .company-overview .description {
+        font-size: 13px;
+    }
+}
+
+
+/*===============================================================
+=            03. Extra small devices / Small devices            =
+===============================================================*/
+
+@media only screen and (max-width:767px),
+only screen and (min-width:768px) and (max-width:991px) {
+    /*=========================================
+    =            03. Navbar Area              =
+    =========================================*/
+    .navbar-area.navbar-v2 {
+        background-color: #f8f8f8;
+    }
+    .navbar-area .navbar-nav {
+        text-align: center;
+        margin-right: inherit;
+    }
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link>a {
+        display: inline-block;
+        font-family: 'lato', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0;
+        color: #c7c7c7!important;
+        background-color: transparent!important;
+    }
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link.active>a,
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link>a:hover {
+        background-color: transparent;
+    }
+    .navbar-area.navbar-v2 .navbar-nav>.btn-download>a,
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link>a {
+        margin: 10px 0;
+    }
+    .navbar-area .navbar-nav>.hash-link>a,
+    .navbar-area .navbar-toggle {
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+    .navbar-area .navbar-toggle:hover,
+    .navbar-area .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .navbar-area .navbar-nav>.btn-download .btn-custom {
+        color: #fff;
+    }
+    /*=================================================
+    =            03. General Blog Styles              =
+    =================================================*/
+    /*===============================================
+    =            03.01. Blog Container              =
+    ===============================================*/
+    .blog-container {
+        padding: 20px 0 5px 0;
+    }
+    /*=======================================
+    =            03. Blog Page              =
+    =======================================*/
+    .blog-wrapper {
+        margin-bottom: 25px;
+    }
+    /*============================================
+    =            03. Blog Post Page              =
+    ============================================*/
+    .post-wrapper {
+        margin-bottom: 25px;
+    }
+    /*================================================
+    =            03. Stay In Touch Area              =
+    ================================================*/
+    .stay-in-touch-area .subscribe-form .form-group {
+        width: 75%;
+        margin: 0 auto 15px auto;
+    }
+    .stay-in-touch-area .subscribe-form .form-control {
+        width: 100%;
+    }
+}
+
+
+/*==========================================
+=            04. Medium devices            =
+==========================================*/
+
+
+/*=======================================
+=            04. Blog Page              =
+=======================================*/
+
+
+/* Single post */
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .blog-wrapper .post-text .list-group-item-heading {
+        font-size: 20px;
+    }
+}
+
+
+/*=========================================
+=            05. Large devices            =
+=========================================*/
+
+@media only screen and (min-width:1200px) {}
+
+
+/*==========================================================
+=            06. Medium devices / Large devices            =
+==========================================================*/
+
+@media only screen and (min-width:992px) and (max-width:1199px),
+only screen and (min-width:1200px) {}
+
+

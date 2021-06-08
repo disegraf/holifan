@@ -1,0 +1,199 @@
+/** 
+ * Template Name: Apex
+ * Template Description: Multipurpose Responsive HTML5 Landing Page
+ * By: Exill
+ * Primary Color: #1193d3;
+ * Secondary Color: #057eb9;
+ */
+
+
+/*==========================================
+=            01. General Styles            =
+==========================================*/
+
+::-moz-selection {
+    background-color: #1193d3;
+}
+
+::selection {
+    background-color: #1193d3;
+}
+
+blockquote {
+    border-left: 5px solid #1193d3;
+}
+
+.inherit-cs {
+    color: #1193d3;
+}
+
+.inherit-cs:hover,
+.inherit-cs:focus {
+    color: #057eb9;
+}
+
+.btn-custom,
+.dropdown-toggle.btn-custom {
+    background-color: #1193d3;
+}
+
+.btn-custom:hover,
+.dropdown-toggle.btn-custom:hover {
+    background-color: #057eb9;
+}
+
+.btn-custom:active,
+.dropdown-toggle.btn-custom:active,
+.btn-custom.active,
+.dropdown-toggle.btn-custom.active {
+    background-color: #057eb9;
+}
+
+.btn-custom:focus,
+.dropdown-toggle.btn-custom:focus {
+    background-color: #057eb9;
+}
+
+.pmd-btn-flat.btn-custom {
+    color: #1193d3;
+}
+
+.pmd-btn-flat.btn-custom:hover {
+    color: #057eb9;
+}
+
+.pmd-btn-flat.btn-custom:active,
+.pmd-btn-flat.btn-custom.active {
+    color: #057eb9;
+}
+
+.pmd-btn-flat.btn-custom:focus {
+    color: #057eb9;
+}
+
+.pmd-btn-outline.btn-custom {
+    color: #1193d3;
+    border: solid 1px #1193d3;
+}
+
+.pmd-btn-outline.btn-custom:hover,
+.pmd-btn-outline.btn-custom:focus {
+    background-color: #1193d3;
+    border: solid 1px #1193d3;
+}
+
+
+/*=====================================
+=            02. Preloader            =
+=====================================*/
+
+.preloader .double-bounce-1,
+.preloader .double-bounce-2 {
+    background-color: #1193d3;
+}
+
+
+/*=======================================
+=            03. Navbar Area            =
+=======================================*/
+
+.navbar-area.navbar-v2 .navbar-brand {
+    color: #1193d3;
+}
+
+.navbar-area.navbar-v2 .navbar-brand:hover,
+.navbar-area.navbar-v2 .navbar-brand:focus {
+    color: #057eb9;
+}
+
+.navbar-area.navbar-v2 .navbar-nav>.hash-link>a {
+    color: #1193d3;
+}
+
+.navbar-area.navbar-v2 .navbar-nav>.hash-link.active>a,
+.navbar-area.navbar-v2 .navbar-nav>.hash-link>a:hover {
+    background-color: #1193d3;
+}
+
+
+/*===============================================================
+=            03. Extra small devices / Small devices            =
+===============================================================*/
+
+@media only screen and (max-width:767px),
+only screen and (min-width:768px) and (max-width:991px) {
+    .navbar-area.navbar-v2 .navbar-brand {
+        color: #1193d3;
+    }
+    .navbar-area.navbar-v2 .navbar-brand:hover,
+    .navbar-area.navbar-v2 .navbar-brand:focus {
+        color: #057eb9;
+    }
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link>a {
+        color: #1193d3!important;
+    }
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link.active>a,
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link>a:hover {
+        color: #057eb9!important;
+    }
+    .navbar-area .navbar-nav>.btn-download .btn-custom {
+        background-color: #1193d3;
+    }
+    .navbar-area .navbar-nav>.btn-download .btn-custom:hover,
+    .navbar-area .navbar-nav>.btn-download .btn-custom:focus {
+        background-color: #057eb9;
+    }
+    .navbar-area .navbar-toggle {
+        border-color: #1193d3;
+    }
+    .navbar-area .navbar-toggle:hover,
+    .navbar-area .navbar-toggle:focus {
+        border-color: #057eb9;
+    }
+    .navbar-area .navbar-toggle .icon-bar {
+        background-color: #1193d3;
+    }
+    .navbar-area .navbar-toggle:hover>.icon-bar,
+    .navbar-area .navbar-toggle:focus>.icon-bar {
+        background-color: #057eb9;
+    }
+}
+
+
+/*=====================================
+=            04. Blog Page            =
+=====================================*/
+
+
+/* Pagination */
+
+.blog-wrapper .pagination>.active>a,
+.blog-wrapper .pagination>.active>span,
+.blog-wrapper .pagination>.active>a:hover,
+.blog-wrapper .pagination>.active>span:hover,
+.blog-wrapper .pagination>.active>a:focus,
+.blog-wrapper .pagination>.active>span:focus {
+    background-color: #1193d3;
+    border-color: #057eb9;
+}
+
+
+/*==========================================
+=            05. Blog Post Page            =
+==========================================*/
+
+
+/* Comments Area */
+
+.post-wrapper .comments-list .comment-reply {
+    color: #1193d3;
+}
+
+
+/*==========================================
+=            Customization Tool            =
+==========================================*/
+
+.customization-panel .btn.toggler i {
+    color: #1193d3;
+}

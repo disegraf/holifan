@@ -1,0 +1,457 @@
+/** 
+ * Template Name: Apex
+ * Template Description: Multipurpose Responsive HTML5 Landing Page
+ * By: Exill
+ */
+
+
+/*===============================================
+=            01. Extra small devices            =
+===============================================*/
+
+@media only screen and (max-width:767px) {
+    /*==========================================
+    =            01. General Styles            =
+    ==========================================*/
+    .db-xs {
+        display: block;
+    }
+    /*=======================================
+    =            01. Home Area              =
+    =======================================*/
+    .home-area .text-part {
+        text-align: center;
+        padding-top: 80px;
+    }
+    .home-area .text-part .home-title {
+        font-size: 40px;
+    }
+    .home-area .img-part {
+        text-align: center;
+        padding-top: 30px;
+        margin-left: -90px;
+    }
+    .home-area .img-part img {
+        width: 400px;
+    }
+    /*===========================================
+    =            01. Services Area              =
+    ===========================================*/
+    .services-area .pmd-card {
+        margin-top: 10px;
+    }
+    .services-area .nav-tabs>li {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .services-area .nav-tabs>li>a {
+        padding: 0 0 20px 0;
+    }
+    .services-area .nav-tabs>li>a .tab-icon {
+        line-height: 77px;
+        width: 77px;
+        height: 77px;
+    }
+    .services-area .nav-tabs>li>a .tab-title {
+        font-size: 16px;
+    }
+    .services-area .pmd-card-body .tab-pane p {
+        font-size: 15px;
+    }
+    /*========================================
+    =            01. Facts Area              =
+    ========================================*/
+    .facts-area .single-fact {
+        padding: 25px 0;
+    }
+    .facts-area .single-fact {
+        padding: 25px 0;
+    }
+    .facts-area .single-fact .fact-text h3 {
+        font-size: 18px;
+    }
+    .facts-area .single-fact .fact-text h1 {
+        font-size: 17px;
+    }
+    /*==========================================
+    =            01. Support Area              =
+    ==========================================*/
+    .support-area .contact-part {
+        margin-bottom: 35px;
+    }
+	/*==========================================
+    =            01. Pricing Area              =
+    ==========================================*/
+    .pricing-area .single-plan {
+        padding: 45px 0;
+        margin: 30px 0;
+    }
+    .pricing-area .single-plan.plan-popular {
+        position: static;
+        z-index: auto;
+        padding: 45px 0;
+        margin: 0;
+        -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+    }
+    /*======================================
+    =            01. FAQ's Area            =
+    ======================================*/
+    .faqs-area .img-part {
+        margin-top: 50px;
+    }
+    /*================================================
+    =            01. Stay In Touch Area              =
+    ================================================*/
+    .stay-in-touch-area {
+        padding: 45px 0 0 0;
+    }
+    .stay-in-touch-area .vertical-align {
+        display: block;
+    }
+    .stay-in-touch-area .subscribe-form {
+        text-align: center;
+    }
+    .stay-in-touch-area .subscribe-form .form-group {
+        float: none;
+    }
+    .stay-in-touch-area .latest-tweets .owl-item li,
+    .stay-in-touch-area .latest-tweets .owl-item .twitter-tweet {
+        width: auto!important;
+    }
+    /*=========================================
+    =            01. Footer Area              =
+    =========================================*/
+    .footer-area {
+        text-align: center;
+    }
+    .footer-area .main-footer {
+        margin-bottom: 25px;
+    }
+    .footer-area .copyright p {
+        margin-bottom: 15px;
+    }
+    .footer-area .social-medias a i {
+        float: none;
+    }
+}
+
+
+/*=========================================
+=            02. Small devices            =
+=========================================*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /*==========================================
+    =            02. General Styles            =
+    ==========================================*/
+    .db-sm {
+        display: block;
+    }
+    /*=======================================
+    =            02. Home Area              =
+    =======================================*/
+    .home-area .text-part {
+        text-align: center;
+        padding-top: 80px;
+    }
+    .home-area .text-part .home-description {
+        margin-bottom: 30px;
+    }
+    .home-area .img-part {
+        padding-top: 35px;
+        padding-left: 95px;
+    }
+    .home-area .img-part img {
+        width: 430px;
+    }
+    /*========================================
+    =            02. Facts Area              =
+    ========================================*/
+    .facts-area .single-fact .fact-text h3 {
+        font-size: 18px;
+    }
+    .facts-area .single-fact .fact-text h1 {
+        font-size: 18px;
+    }
+    /*=========================================
+    =            02. Footer Area              =
+    =========================================*/
+    .footer-area .company-overview .description {
+        font-size: 13px;
+    }
+}
+
+
+/*===============================================================
+=            03. Extra small devices / Small devices            =
+===============================================================*/
+
+@media only screen and (max-width:767px),
+only screen and (min-width:768px) and (max-width:991px) {
+    /*=========================================
+    =            03. Navbar Area              =
+    =========================================*/
+    .navbar-area.navbar-v1,
+    .navbar-area.navbar-v2 {
+        background-color: transparent;
+    }
+    .navbar-area.navbar-v1 .navbar-brand,
+    .navbar-area.navbar-v2 .navbar-brand {
+        padding-top: 3px;
+    }
+    .navbar-area .navbar-nav {
+        text-align: center;
+        margin-right: inherit;
+    }
+    .navbar-area.navbar-v1 .navbar-nav>.hash-link>a,
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link>a {
+        display: inline-block;
+        font-family: 'lato', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0;
+        color: #c7c7c7!important;
+        background-color: transparent!important;
+    }
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link.active>a,
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link>a:hover {
+        background-color: transparent;
+    }
+    .navbar-area.navbar-v1 .navbar-nav>.btn-download>a,
+    .navbar-area.navbar-v2 .navbar-nav>.btn-download>a,
+    .navbar-area.navbar-v1 .navbar-nav>.hash-link>a,
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link>a {
+        margin: 10px 0;
+    }
+    .navbar-area .navbar-nav>.hash-link>a,
+    .navbar-area .navbar-toggle {
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+    .navbar-area .navbar-toggle:hover,
+    .navbar-area .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .navbar-area .navbar-nav>.btn-download .btn-custom {
+        color: #fff;
+    }
+    /*=======================================
+    =            03. Home Area              =
+    =======================================*/
+    .home-area>.container>.row {
+        margin-top: 50px;
+    }
+    .home-area .text-part .buttons-set .btn-custom {
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    /*========================================
+    =            03. About Area              =
+    ========================================*/
+    .about-area {
+        padding: 0 0 70px 0;
+    }
+    .about-area .pull-left,
+    .about-area .pull-right {
+        float: none!important;
+    }
+    .about-area .text-part {
+        padding-top: 70px;
+    }
+    .about-area .text-part .about-title {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .about-area .text-part .btn-custom {
+        position: absolute;
+        right: 0;
+        left: 0;
+        z-index: 9;
+        white-space: normal;
+        max-width: 160px;
+        margin: 0 auto;
+    }
+    .about-area .img-part {
+        margin-top: 100px;
+    }
+    .about-area .img-part img {
+        width: 390px;
+    }
+    .about-area .text-part .about-title,
+    .about-area .img-part {
+        text-align: center;
+    }
+    /*========================================
+    =            03. Video Area              =
+    ========================================*/
+    .video-area {
+        padding: 70px 0;
+    }
+    .video-area .text-part {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    /*===========================================
+    =            03. Features Area              =
+    ===========================================*/
+    .features-area .section-heading {
+        margin-bottom: 60px;
+    }
+    .features-area .features-list {
+        padding: 0;
+    }
+    .features-area .features-list.align-left .single-feature,
+    .features-area .features-list.align-right .single-feature {
+        text-align: center;
+        padding: 20px 5px;
+        margin: 0;
+    }
+    .features-area .features-list.align-left .single-feature .feature-icon,
+    .features-area .features-list.align-right .single-feature .feature-icon {
+        float: none;
+        margin: 0 auto 20px auto;
+    }
+    .features-area .features-list.align-left .single-feature .feature-text,
+    .features-area .features-list.align-right .single-feature .feature-text {
+        margin: 0;
+    }
+    .features-area .features-image {
+        padding: 35px 0;
+    }
+    .features-area .features-image img {
+        width: 275px;
+    }
+    /*========================================
+    =            03. Facts Area              =
+    ========================================*/
+    .facts-area {
+        background-position: 0;
+        padding: 45px 0;
+    }
+    /*==========================================
+    =            03. Reviews Area              =
+    ==========================================*/
+    .reviews-area {
+        background-position: 0;
+    }
+    /*==========================================
+    =            03. Pricing Area              =
+    ==========================================*/
+    .pricing-area {
+        padding: 85px 0 55px 0;
+    }
+    .pricing-area .pricing-plans {
+        margin-top: 0;
+    }
+    .pricing-area .single-plan {
+        padding: 45px 0;
+        margin: 30px 0;
+    }
+    .pricing-area .single-plan.plan-popular {
+        position: static;
+        z-index: auto;
+        padding: 45px 0;
+        margin: 0;
+        -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+    }
+    .pricing-area .single-plan.plan-popular .plan-icon {
+        margin: 0 0 10px 0;
+    }
+    .pricing-area .single-plan.plan-popular .plan-price {
+        margin-bottom: 30px;
+    }
+    .pricing-area .single-plan.plan-popular .plan-list {
+        margin-bottom: 15px;
+    }
+    .pricing-area .single-plan.plan-popular .btn-custom {
+        margin-bottom: 0;
+    }
+    /*================================================
+    =            03. Stay In Touch Area              =
+    ================================================*/
+    .stay-in-touch-area .subscribe-form .form-group {
+        width: 75%;
+        margin: 0 auto 15px auto;
+    }
+    .stay-in-touch-area .subscribe-form .form-control {
+        width: 100%;
+    }
+}
+
+
+/*==========================================
+=            04. Medium devices            =
+==========================================*/
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /*=======================================
+    =            04. Home Area              =
+    =======================================*/
+    .home-area .text-part .home-title {
+        font-size: 38px;
+    }
+    .home-area .text-part .home-description {
+        font-size: 15px;
+    }
+    
+    /*========================================
+    =            04. Video Area              =
+    ========================================*/
+    .video-area .text-part .video-description {
+        font-size: 15px;
+    }
+    .video-area .text-part .video-description:last-of-type {
+        margin-bottom: 10px;
+    }
+    .video-area .text-part .btn-custom {
+        padding: 8px 12px;
+    }
+    .video-area .video-part {
+        padding-top: 20px;
+    }
+    /*===========================================
+    =            04. Features Area              =
+    ===========================================*/
+    .features-area .single-feature .feature-description {
+        font-size: 13px;
+    }
+    /*========================================
+    =            04. Facts Area              =
+    ========================================*/
+    .facts-area {
+        background-position: 0;
+    }
+    /*==========================================
+    =            04. Reviews Area              =
+    ==========================================*/
+    .reviews-area {
+        background-position: 0;
+    }
+    /*====================================================
+    =            04. Latest Blog Posts Area              =
+    ====================================================*/
+    .latest-posts-area .pmd-card .post-text .pmd-card-title-text {
+        font-size: 16px;
+    }
+}
+
+
+/*=========================================
+=            05. Large devices            =
+=========================================*/
+
+@media only screen and (min-width:1200px) {}
+
+
+/*==========================================================
+=            06. Medium devices / Large devices            =
+==========================================================*/
+
+@media only screen and (min-width:992px) and (max-width:1199px),
+only screen and (min-width:1200px) {}

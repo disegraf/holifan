@@ -1,0 +1,269 @@
+/** 
+ * Template Name: Apex
+ * Template Description: Multipurpose Responsive HTML5 Landing Page
+ * By: Exill
+ * Primary Color: #d84950;
+ * Secondary Color: #be252d;
+ */
+
+
+/*==========================================
+=            01. General Styles            =
+==========================================*/
+
+::-moz-selection {
+    background-color: #d84950;
+}
+
+::selection {
+    background-color: #d84950;
+}
+
+.inherit-cs {
+    color: #d84950;
+}
+
+.inherit-cs:hover,
+.inherit-cs:focus {
+    color: #be252d;
+}
+
+.btn-custom,
+.dropdown-toggle.btn-custom {
+    background-color: #d84950;
+}
+
+.btn-custom:hover,
+.dropdown-toggle.btn-custom:hover {
+    background-color: #be252d;
+}
+
+.btn-custom:active,
+.dropdown-toggle.btn-custom:active,
+.btn-custom.active,
+.dropdown-toggle.btn-custom.active {
+    background-color: #be252d;
+}
+
+.btn-custom:focus,
+.dropdown-toggle.btn-custom:focus {
+    background-color: #be252d;
+}
+
+.pmd-btn-flat.btn-custom {
+    color: #d84950;
+}
+
+.pmd-btn-flat.btn-custom:hover {
+    color: #be252d;
+}
+
+.pmd-btn-flat.btn-custom:active,
+.pmd-btn-flat.btn-custom.active {
+    color: #be252d;
+}
+
+.pmd-btn-flat.btn-custom:focus {
+    color: #be252d;
+}
+
+.pmd-btn-outline.btn-custom {
+    color: #d84950;
+    border: solid 1px #d84950;
+}
+
+.pmd-btn-outline.btn-custom:hover,
+.pmd-btn-outline.btn-custom:focus {
+    background-color: #d84950;
+    border: solid 1px #d84950;
+}
+
+
+/*=====================================
+=            02. Preloader            =
+=====================================*/
+
+.preloader .double-bounce-1,
+.preloader .double-bounce-2 {
+    background-color: #d84950;
+}
+
+
+/*=======================================
+=            03. Navbar Area            =
+=======================================*/
+
+.navbar-area.navbar-v2 .navbar-brand {
+    color: #d84950;
+}
+
+.navbar-area.navbar-v2 .navbar-brand:hover,
+.navbar-area.navbar-v2 .navbar-brand:focus {
+    color: #be252d;
+}
+
+.navbar-area.navbar-v1 .navbar-nav>.hash-link.active>a {
+    color: #d84950;
+}
+
+.navbar-area.navbar-v2 .navbar-nav>.hash-link>a {
+    color: #d84950;
+}
+
+.navbar-area.navbar-v2 .navbar-nav>.hash-link.active>a,
+.navbar-area.navbar-v2 .navbar-nav>.hash-link>a:hover {
+    background-color: #d84950;
+}
+
+.navbar-area.navbar-v1 .navbar-nav>.hash-link>a:hover,
+.navbar-area.navbar-v1 .navbar-nav>.hash-link>a:focus {
+    color: #d84950;
+}
+
+
+/*===============================================================
+=            03. Extra small devices / Small devices            =
+===============================================================*/
+
+@media only screen and (max-width:767px),
+only screen and (min-width:768px) and (max-width:991px) {
+    .navbar-area.navbar-v1 .navbar-brand,
+    .navbar-area.navbar-v2 .navbar-brand {
+        color: #d84950;
+    }
+    .navbar-area.navbar-v1 .navbar-brand:hover,
+    .navbar-area.navbar-v2 .navbar-brand:hover,
+    .navbar-area.navbar-v1 .navbar-brand:focus,
+    .navbar-area.navbar-v2 .navbar-brand:focus {
+        color: #be252d;
+    }
+    .navbar-area.navbar-v1 .navbar-nav>.hash-link>a,
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link>a {
+        color: #d84950!important;
+    }
+    .navbar-area.navbar-v1 .navbar-nav>.hash-link.active>a,
+    .navbar-area.navbar-v1 .navbar-nav>.hash-link>a:hover,
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link.active>a,
+    .navbar-area.navbar-v2 .navbar-nav>.hash-link>a:hover {
+        color: #be252d!important;
+    }
+    .navbar-area .navbar-nav>.btn-download .btn-custom {
+        background-color: #d84950;
+    }
+    .navbar-area .navbar-nav>.btn-download .btn-custom:hover,
+    .navbar-area .navbar-nav>.btn-download .btn-custom:focus {
+        background-color: #be252d;
+    }
+    .navbar-area .navbar-toggle {
+        border-color: #d84950;
+    }
+    .navbar-area .navbar-toggle:hover,
+    .navbar-area .navbar-toggle:focus {
+        border-color: #be252d;
+    }
+    .navbar-area .navbar-toggle .icon-bar {
+        background-color: #d84950;
+    }
+    .navbar-area .navbar-toggle:hover>.icon-bar,
+    .navbar-area .navbar-toggle:focus>.icon-bar {
+        background-color: #be252d;
+    }
+}
+
+
+/*=====================================
+=            04. Home Area            =
+=====================================*/
+
+.home-area .text-part .buttons-set .pmd-btn-outline.btn-custom:hover,
+.home-area .text-part .buttons-set .pmd-btn-outline.btn-custom:focus {
+    border: solid 1px #d84950;
+}
+
+
+/*=========================================
+=            05. Services Area            =
+=========================================*/
+
+.services-area .pmd-tab-active-bar {
+    background-color: #d84950;
+}
+
+.services-area .nav-tabs>li>a .tab-icon i {
+    color: #d84950;
+}
+
+.services-area .nav-tabs>li:hover>a .tab-icon {
+    background-color: #d84950;
+}
+
+
+/*======================================
+=            06. About Area            =
+======================================*/
+
+.about-area .text-part .about-list li:before {
+    color: #d84950;
+}
+
+
+/*======================================
+=            07. Video Area            =
+======================================*/
+
+.video-area .video-part .embed-responsive-item .play-wrapper i {
+    color: #d84950;
+}
+
+
+/*=========================================
+=            08. Features Area            =
+=========================================*/
+
+.features-area .single-feature:hover .feature-icon {
+    background-color: #d84950;
+}
+
+.features-area .single-feature .feature-icon i {
+    color: #d84950;
+}
+
+
+/*======================================
+=            09. Facts Area            =
+======================================*/
+
+.facts-area .single-fact .fact-icon i {
+    color: #d84950;
+}
+
+
+/*============================================
+=            10. Screenshots Area            =
+============================================*/
+
+.screenshots-area .swipe-buttons .btn-custom i {
+    color: #d84950
+}
+
+.screenshots-area .swipe-buttons .btn-custom:hover i {
+    color: #be252d;
+}
+
+
+/*========================================
+=            11. Pricing Area            =
+========================================*/
+
+.pricing-area .single-plan .plan-icon {
+    color: #d84950;
+}
+
+
+/*==========================================
+=            Customization Tool            =
+==========================================*/
+
+.customization-panel .btn.toggler i {
+    color: #d84950;
+}
